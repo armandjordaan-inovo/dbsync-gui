@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>dbSync_gui.Mac</RootNamespace>
+
+    <RuntimeIdentifiers>osx-x64;osx-arm64</RuntimeIdentifiers>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\dbSync-gui\dbSync-gui.csproj" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Eto.Platform.Mac64" Version="2.7.0" />
+  </ItemGroup>
+	
+</Project>
